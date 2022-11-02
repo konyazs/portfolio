@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: cadetblue;
+    transition: 1s;
+}
+
+a:hover {
+    color: red;
+}
+
+.active {
+    background-color:gainsboro;
+    color: brown;
+}
+body{
+   background-color: aqua;
+}
+img{
+    height: 600px;
+    position: relative;
+}
+
