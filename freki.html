@@ -29,9 +29,9 @@
 <p id="fo">Az eredmény itt fog megjelenni, ha megnyomod az ENTER gombot!</p>
 
 <script>  
-  let freki = 0; 
+  let freki = 0.0; 
   function szamol(){
-      freki = parseInt(induk.value) + parseInt(capac.value) ;
+      freki = 1 / (2 * Math.PI * Math.sqrt(parseInt(induk.value) * parseInt(capac.value))) ;
       document.getElementById('fo').innerHTML = freki;
   }
 </script>
