@@ -33,10 +33,10 @@
 <p id="fo">Az eredmény itt fog megjelenni, ha megnyomod az ENTER gombot!</p>
  
 <script>  
-  let freki = 0.0;  
+  let freki = 0.0;   
   function szamol(){ 
-      let L = parseInt(induk.value) /1000000 ;
-      let C = parseInt(capac.value) /1000000 ;
+      let L = parseInt(induk.value) /1000 ;
+      let C = parseInt(capac.value) /1000 ;
       let freki = L* C ;
       freki = 1 / (2 * Math.PI * Math.sqrt(parseInt(induk.value) * parseInt(capac.value))) ;
       document.getElementById('fo').innerHTML = freki;
