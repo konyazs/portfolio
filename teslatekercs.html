@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJEKT01 - TESLA - SP</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .row:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-s-1 {
+                width: 8.33%;
+            }
+
+            .col-s-2 {
+                width: 16.66%;
+            }
+
+            .col-s-3 {
+                width: 25%;
+            }
+
+            .col-s-4 {
+                width: 33.33%;
+            }
+
+            .col-s-5 {
+                width: 41.66%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.33%;
+            }
+
+            .col-s-8 {
+                width: 66.66%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.33%;
+            }
+
+            .col-s-11 {
+                width: 91.66%;
+            }
+
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+
+        html {
+            font-family: "Lucida Sans", sans-serif;
+        }
+
+        .header {
+            background-color: #4729ab;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #5016ad;
+            color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .menu li:hover {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu .active li {
+            background-color: #e6dbff;
+            color: #5016ad;
+        }
+
+        .menu a {
+            text-decoration: none;
+        }
+
+        .aside {
+            background-color: #4e33e5;
+            padding: 15px;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+
+        .footer {
+            background-color: #0063cc;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Tesla Tekercs SP v1.0</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <p>11. évfolyam</p>
+            <ul>
+                <a class="active" href="https://sandorpeteer.github.io/web/11/Tesla_responsive.html">
+                    <li>Projekt 01: Mini Tesla</li>
+                </a>
+                <a href="#sp">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 03</li>
+                </a>
+                <a href="#link ide">
+                    <li>Projekt 04</li>
+                </a>
+            </ul>
+            <p>12. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>13. évfolyam</p>
+            <ul>
+                <a href="">
+                    <li>Projekt 01</li>
+                </a>
+                <a href="">
+                    <li>Projekt 02</li>
+                </a>
+                <a href="">
+                    <li>Projekt 03</li>
+                </a>
+            </ul>
+            <p>----------------</p>
+            <ul>
+                <a href="https://sandorpeteer.github.io/web">
+                    <li>VISSZA</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Mini Tesla Projekt</h1>
+            <p>Nikola Tesla találta fel az 1890-es években.
+                A Tesla tekercs egy olyan elektromos eszköz, amely képes nagymértékben növelni az elektromos mező
+                erősségét. Az eszköz a feszültséget növeli, ami lehetővé teszi a távolsági adatátvitelt, valamint a
+                rádió- és televíziós jeladásokat.
+                A tekercs az elektromos áramot képes átalakítani mágneses térre, és fordítva, ami lehetővé teszi a
+                rádiós jelek küldését és fogadását.</p>
+            <p>A Tesla tekercsnek két fő alkalmazása van: a rádiós kommunikáció és a tudományos kutatás.
+                Lehetővé teszi a kommunikációs rendszerek számára, hogy nagymértékben növeljék a hatótávolságukat.
+                A Tesla tekercs segítségével olyan jelenségek figyelhetők meg, mint az elektromos töltések mozgása és a
+                rádióhullámok terjedése.</p>
+            <p>A Tesla tekercsnek van egy másik hasznos alkalmazása is, ami a látványos elektromos és mágneses
+                jelenségek generálása.
+                A Tesla tekercsnek köszönhetően látványos elektromos és mágneses jelenségek jelenhetnek meg, mint
+                például a villódzó és ágaskodó elektromos kisülések.</p>
+
+            <p>Mivel távközlés technikusnak tanulok, így elengedhetetlen, hogy építsek Tesla tekercseket. A rádiózás
+                alapját képzi, ahogy a fentiekben is írtam.
+                Először valami nagyon egyszerű verziót kerestem, és így erre az olcsón megvásárolható kis egységcsomagra
+                esett a választásom. Az áramkör egyszerűsége és a lehetséges hibák elkerülése volt a fő szempontom, és
+                ez a kapcsolás csak pár alkatrészt igényelt.
+            </p>
+
+            <h2>Az általam épített KIT:</h2>
+            <img src="https://sandorpeteer.github.io/web/11/img/teslatekercs.jpeg" alt="Tesla Tekercs">
+
+            <p>Ez egy Mini Tesla transzformátor KIT, BD243C tranzisztorral.</p>
+            <p>A KS-001 készletből egy mini tesla tekercset építhetünk, amely elektromágneses teret generál maga
+                körül, aminek hatására a közvetlen közelébe helyezett nemesgázzal töltött glimm lámpa (külső
+                tápegység nélkül) a kezünkben világítani kezd.</p>
+
+            <p>Beszerzési forrás: <a href="http://www.hestore.hu">www.hestore.hu</a> </p>
+
+            <h2>Működtethető tápegységről vagy akkumulátorról is.</h2>
+            <p>Műszaki adatok:</p>
+            <ul>
+                <li>Működési feszültség: 9...12V DC</li>
+                <li>Maximális áramfelvétel: 660mA</li>
+                <li>Elkészítési idő: 15 perc</li>
+                <li>Méretek: 40 x 31 x 49mm</li>
+            </ul>
+            <p>Az összeszereléshez szükséges még:</p>
+            <ul>
+                <li>forrasztópáka és ón,</li>
+                <li>oldalcsípő fogó,</li>
+                <li>Phillips fejű csavarhúzó</li>
+            </ul>
+
+            <p>Az összeszerelési dokumentációt <a href="https://sandorpeteer.github.io/web/11/minitesla.pdf">innen</a>
+                le lehet letölteni PDF fájlként. </p>
+
+            <h2>A kapcsolási rajza:</h2>
+            <img src="https://sandorpeteer.github.io/web/11/img/kapcsolas.jpg" alt="Tesla Kapcsolási rajz">
+
+            <h2>Az alkatrészek, amiket felhasználtam:</h2>
+            <img src="https://sandorpeteer.github.io/web/11/img/alkatreszek.jpg" alt="alkatreszek">
+
+            <h2>A tekercsem kész állapotában:</h2>
+            <img src="https://sandorpeteer.github.io/web/11/img/tekercsem.jpg" alt="kész tekercs">
+
+            <h2>A forrasztási oldalról egy fénykép:</h2>
+            <img src="https://sandorpeteer.github.io/web/11/img/forrasztas.jpg" alt="">
+
+            <p id="sp">Az áramkört készítettem: 2023.01.26.</p>
+            <p>Több információért keresd fel ezt az oldalt: <a
+                    href="https://en.wikipedia.org/wiki/Tesla_coil">https://en.wikipedia.org/wiki/Tesla_coil</a> </p>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <h2>Nikola Tesla</h2>
+                <p>Az 1980-as években kezdett foglalkozni vele.</p>
+                <h2>Főbb paraméterek</h2>
+                <p>Működési feszültség: 9...12V DC</p>
+                <p>Maximális áramfelvétel: 660mA</p>
+                <p>Elkészítési idő: 15 perc</p>
+                <p>Méretek: 40 x 31 x 49mm</p>
+
+                <h2>Hogyan működik?</h2>
+                <p>A Tesla tekercsnek köszönhetően látványos elektromos és mágneses jelenségek jelenhetnek meg, mint
+                    például a villódzó és ágaskodó elektromos kisülések</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Készítette: Sándor Péter</p>
+        <p>A projekt megvalósult: 2023.01.26.</p>
+        <p>Helyszín: Miskolci Szakképzési Centrum Kandó Kálmán Informatikai Technikum (Villamos 3 labor).</p>
+
+    </div>
+
+</body>
+
+</html>
